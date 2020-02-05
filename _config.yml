@@ -1,5 +1,12 @@
 # Site settings
 title: Robert Blog
-header-img: img/table.jpg
+header-img: /img/table.jpg
 description: "About me"
-theme: jekyll-theme-midnight
+email: wyq1997boy@163.com
+url: "https://robertwyq.github.io"
+
+# Sidebar settings
+sidebar: true
+sidebar-about-description: "my heart is in the work"
+sidebar-avatar: /img/head.JPG 
+# theme: jekyll-theme-midnight
