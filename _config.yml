@@ -1,1 +1,5 @@
+# Site settings
+title: Robert Blog
+header-img: img/table.jpg
+description: "About me"
 theme: jekyll-theme-midnight
