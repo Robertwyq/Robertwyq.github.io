@@ -4,14 +4,14 @@
 
 ### Experience
 
+​		I have a good mathematical foundation, a strong learning ability, cheerful and optimistic. The future research direction is pattern recognition, which has been studied directly in the National Key Laboratory of pattern recognition, Institute of automation, Chinese Academy of Sciences. The combination of deep learning and computer vision is studied, mainly including the analysis and understanding of visual scene. At present, the graduation project of panoramic segmentation for road scene is being done, which is very interested in the direction of intelligent perception of automatic driving.
+
+### Projects
+
+#### 1. Study on Panoptic Segmentation for Road scene
+
+​	
+
+### Travel
 
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Robertwyq/Robertwyq.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
