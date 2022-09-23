@@ -1,17 +1,18 @@
-## Welcome to Robert 's Blog
+## <center>Welcome to Robert 's Blog<center>
 
-![Image](./img/head.jpg)
+## Yuqi Wang (王宇琪)
+I am currently a PhD student in CRIPAC, NLPR, Institute of Automation, Chinese Academy of Sciences, supervised by Prof. Zhaoxiang Zhang. 
+I got my bachelor's degree from Zhejiang University, China, in 2020.
+My research interests focus on computer vision, object detection, and deep learning.
 
-### Experience
+## <center>Experience<center>
+- 2016/9 ~ 2020/6: B.Eng. in Automation(Robotics) at ZJU, with GPA 3.97/4, winner of National Scholarship.
 
-​		I have a good mathematical foundation, a strong learning ability, cheerful and optimistic. The future research direction is pattern recognition, which has been studied directly in the National Key Laboratory of pattern recognition, Institute of automation, Chinese Academy of Sciences. The combination of deep learning and computer vision is studied, mainly including the analysis and understanding of visual scene. At present, the graduation project of panoramic segmentation for road scene is being done, which is very interested in the direction of intelligent perception of automatic driving.
+## <center>Publications<center>
+- **4D Unsupervised Object Discovery**. (NeurIPS, 2022); ***Yuqi Wang**, Yuntao Chen, Zhaoxiang Zhang*
+​
+- Emergence of Machine Language: Towards Symbolic Intelligence with Neural Networks. ***Yuqi Wang**, Xu-Yao Zhang, Cheng-Lin Liu, Tieniu Tan and Zhaoxiang Zhang*
 
-### Projects
-
-#### 1. Study on Panoptic Segmentation for Road scene
-
-​	
-
-### Travel
-
+### Contact
+- Email: wangyuqi2020@ia.ac.cn
 
