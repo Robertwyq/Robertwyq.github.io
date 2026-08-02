@@ -81,12 +81,13 @@ tr,
 p,
 a {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px
+  font-size: 15px;
+  line-height: 1.45;
 }
 
 strong {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 heading {
@@ -96,7 +97,7 @@ heading {
 
 papertitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 700
 }
 
@@ -128,4 +129,103 @@ name {
 
 span.highlight {
   background-color: #ffffd0;
+}
+
+.section-heading-cell {
+  width: 100%;
+  padding: 36px 20px 10px;
+  vertical-align: middle;
+}
+
+.section-heading-note {
+  margin: 8px 0 0;
+}
+
+.news-list {
+  margin: 12px 0 0;
+  padding-left: 22px;
+}
+
+.news-list li {
+  margin: 5px 0;
+}
+
+.news-more {
+  margin: 10px 0 0 22px;
+}
+
+.news-more summary {
+  width: max-content;
+  color: #1772d0;
+  cursor: pointer;
+}
+
+.news-more .news-list {
+  margin-top: 8px;
+}
+
+.research-list tr > td:first-child {
+  width: 30% !important;
+  max-width: 30% !important;
+  padding: 18px 20px !important;
+  text-align: center;
+}
+
+.research-list tr > td:nth-child(2) {
+  width: 70%;
+  padding: 18px 0;
+  vertical-align: middle;
+}
+
+.research-list tr > td:first-child img {
+  display: block;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: 120px;
+  margin: 0 auto;
+  object-fit: contain;
+  object-position: center;
+}
+
+.research-list p {
+  margin: 10px 0 0;
+}
+
+.experience-logo-cell {
+  padding: 20px;
+  width: 30%;
+  max-width: 30%;
+  text-align: center;
+}
+
+.experience-details {
+  width: 70%;
+  padding: 14px 0;
+  vertical-align: middle;
+}
+
+.experience-logo {
+  display: block;
+  width: 75%;
+  max-width: 150px;
+  max-height: 52px;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.experience-logo-baai {
+  filter: invert(1);
+}
+
+.experience-logo-meituan {
+  width: 70%;
+  max-width: 145px;
+  aspect-ratio: 2.7 / 1;
+  object-fit: cover;
+  object-position: center;
+}
+
+.experience-internship-start td {
+  border-top: 1px dashed #c8c8c8;
+  padding-top: 24px;
 }
