@@ -5,7 +5,7 @@
   <meta name="author" content="Yuqi Wang">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  <link rel="stylesheet" type="text/css" href="stylesheet.css?v=20260802b">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css?v=20260905">
   <link rel="icon" type="image/png" href="images/icon.png">
 </head>
 
@@ -60,6 +60,9 @@
               </li>
               <li>
                 <b>2026-02:</b> <strong>One</strong> paper is accepted to <a href="https://cvpr.thecvf.com/">CVPR 2026</a>.
+              </li>
+              <li>
+                <b>2026-01:</b> <strong>One</strong> paper is accepted by <a href="https://www.nature.com/">Nature</a>.
               </li>
               <li>
                 <b>2026-01:</b> <strong>Two</strong> papers are accepted to <a href="https://iclr.cc/">ICLR 2026</a>.
@@ -159,23 +162,6 @@
         <table class="projects-list" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
             <td style="padding:20px;width:30%;max-width:30%" align="center">
-                <img style="width:100%;max-width:100%;aspect-ratio:2167/1472;object-fit:contain" src="img/phizero.png" alt="PhiZero logo">
-            </td>
-            <td width="75%" valign="center">
-                <papertitle>PhiZero: A World Model Built Around Physical Language</papertitle>
-                <br>
-                <a>Shuyao Shang</a>, <strong>Yuqi Wang<sup>†</sup></strong>, <a>Ruopeng Gao</a>, <a>Xu Chen</a>, <a>Tieniu Tan</a>, <a>Lue Fan</a>, <a>Zhaoxiang Zhang</a>
-                <br>
-                <em>arXiv, 2026</em>
-                <br>
-                <a href="https://arxiv.org/abs/2607.28624">[paper]</a> <a href="https://phi-zero.github.io/">[Page]</a>
-                <br>
-                <p>A physical world model that reasons in a compact, discrete physical language before rendering future videos.</p>
-            </td>
-          </tr>
-
-          <tr>
-            <td style="padding:20px;width:30%;max-width:30%" align="center">
                 <img style="width:100%;max-width:100%" src="img/emu3.webp" alt="dise">
             </td>
             <td width="75%" valign="center">
@@ -217,6 +203,23 @@
             </td>
           </tr>
 
+          <tr>
+            <td style="padding:20px;width:30%;max-width:30%" align="center">
+                <img style="width:100%;max-width:100%;aspect-ratio:2167/1472;object-fit:cover;object-position:center" src="img/phizero-figure1.jpg" alt="PhiZero Figure 1 overview">
+            </td>
+            <td width="75%" valign="center">
+                <papertitle>PhiZero: A World Model Built Around Physical Language</papertitle>
+                <br>
+                <a>Shuyao Shang</a>, <strong>Yuqi Wang<sup>†</sup></strong>, <a>Ruopeng Gao</a>, <a>Xu Chen</a>, <a>Tieniu Tan</a>, <a>Lue Fan</a>, <a>Zhaoxiang Zhang</a>
+                <br>
+                <em>arXiv, 2026</em>
+                <br>
+                <a href="https://arxiv.org/abs/2607.28624">[paper]</a> <a href="https://phi-zero.github.io/">[Page]</a>
+                <br>
+                <p>A physical world model that reasons in a compact, discrete physical language before rendering future videos.</p>
+            </td>
+          </tr>
+
         </tbody></table>
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
@@ -226,6 +229,10 @@
               <p class="section-heading-note">
                 * indicates equal contribution
               </p>
+              <div class="research-filter" role="group" aria-label="Filter research papers">
+                <button type="button" data-filter="first" aria-pressed="false">First-author</button>
+                <button type="button" class="active" data-filter="all" aria-pressed="true">All</button>
+              </div>
             </td>
           </tr>
         </tbody></table>
@@ -257,7 +264,7 @@
                 <br>
                 <a>Qian Long*</a>, <a>Yueze Wang*</a>, <a>Jiaxi Song*</a>, <a>Junbo Zhang</a>, <a>Peiyan Li</a>, <a>Wenxuan Wang</a>, <strong>Yuqi Wang</strong>, <a>Haoyang Li</a>, <a>Shaoxuan Xie</a>, <a>Guocai Yao</a>, <a>Hanbo Zhang</a>, <a>Xinlong Wang</a>, <a>Zhongyuan Wang</a>, <a>Xuguang Lan</a>, <a>Huaping Liu</a>, <a>Xinghang Li</a>
                 <br>
-                <em>arXiv, 2026</em>
+                <em>CoRL, 2026</em>
                 <br>
                 <a href="https://arxiv.org/abs/2602.10983">[paper]</a> <a href="https://vista-wm.github.io/">[Page]</a> <a href="https://github.com/vista-wm/Vista-WM">[Code]</a>
                 <br>
@@ -316,7 +323,7 @@
             </td>
             </tr>
 
-          <tr>
+          <tr data-first-author="true">
             <td style="padding:20px;width:30%;max-width:30%" align="center">
                 <img style="width:100%;max-width:100%" src="img/univla.png" alt="dise">
             </td>
@@ -350,7 +357,7 @@
             </td>
             </tr>
           
-          <tr>
+          <tr data-first-author="true">
             <td style="padding:20px;width:30%;max-width:30%" align="center">
                 <img style="width:100%;max-width:100%" src="img/WoTE.jpg" alt="dise">
             </td>
@@ -401,7 +408,7 @@
             </td>
             </tr>
 
-        <tr>
+        <tr data-first-author="true">
             <td style="padding:20px;width:30%;max-width:30%" align="center">
                 <img style="width:100%;max-width:100%" src="img/drivingdojo.png" alt="dise">
             </td>
@@ -418,7 +425,7 @@
             </td>
             </tr>
 
-          <tr>
+          <tr data-first-author="true">
             <td style="padding:20px;width:30%;max-width:30%" align="center">
               <img style="width:100%;max-width:100%" src="img/worldmodel_survey.png" alt="dise">
             </td>
@@ -468,7 +475,7 @@
             </td>
           </tr>
 
-          <tr>
+          <tr data-first-author="true">
             <td style="padding:20px;width:30%;max-width:30%" align="center">
               <img style="width:100%;max-width:100%" src="img/drive-wm/logo.png" alt="dise">
             </td>
@@ -485,7 +492,7 @@
             </td>
           </tr>
 
-          <tr>
+          <tr data-first-author="true">
             <td style="padding:20px;width:30%;max-width:30%" align="center">
               <img style="width:100%;max-width:100%" src="img/panoocc/pipeline.png" alt="dise">
             </td>
@@ -503,7 +510,7 @@
           </tr>
 
 
-          <tr>
+          <tr data-first-author="true">
             <td style="padding:20px;width:30%;max-width:30%" align="center">
               <img style="width:100%;max-width:100%" src="img/machinelanguage/ml.png" alt="dise">
             </td>
@@ -520,7 +527,7 @@
             </td>
           </tr>
           
-          <tr>
+          <tr data-first-author="true">
             <td style="padding:20px;width:30%;max-width:30%" align="center">
               <img style="width:100%;max-width:100%" src="img/affinity/pipeline.png" alt="dise">
             </td>
@@ -537,7 +544,7 @@
             </td>
           </tr>
 
-          <tr>
+          <tr data-first-author="true">
             <td style="padding:20px;width:30%;max-width:30%" align="center">
               <img style="width:100%;max-width:100%" src="img/frustum/frustum.png" alt="dise">
             </td>
@@ -553,7 +560,7 @@
               <p> FrustumFormer, enhancing vision-based 3D object detection through 2D prior. </p>
             </td>
           </tr>
-          <tr>
+          <tr data-first-author="true">
             <td style="padding:20px;width:30%;max-width:30%" align="center">
               <img style="width:100%;max-width:100%" src="img/lsmol/lsmol_pipeline.png" alt="dise">
             </td>
@@ -611,6 +618,28 @@
 	  <br>
 	    &copy; Yuqi Wang | Last updated: September 5, 2026
 </center></p>
+<script>
+  (() => {
+    const filterButtons = document.querySelectorAll('.research-filter button');
+    const researchRows = document.querySelectorAll('.research-list > tbody > tr');
+
+    filterButtons.forEach((button) => {
+      button.addEventListener('click', () => {
+        const showFirstAuthorOnly = button.dataset.filter === 'first';
+
+        researchRows.forEach((row) => {
+          row.hidden = showFirstAuthorOnly && row.dataset.firstAuthor !== 'true';
+        });
+
+        filterButtons.forEach((item) => {
+          const isActive = item === button;
+          item.classList.toggle('active', isActive);
+          item.setAttribute('aria-pressed', String(isActive));
+        });
+      });
+    });
+  })();
+</script>
 </body>
 
 </html>

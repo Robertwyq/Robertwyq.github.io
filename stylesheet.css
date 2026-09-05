@@ -191,6 +191,40 @@ span.highlight {
   margin: 10px 0 0;
 }
 
+.research-filter {
+  display: flex;
+  gap: 7px;
+  margin-top: 12px;
+}
+
+.research-filter button {
+  padding: 6px 13px;
+  border: 1px solid #b9cce0;
+  border-radius: 999px;
+  background: #fff;
+  color: #1772d0;
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.2;
+  cursor: pointer;
+  transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+.research-filter button:hover,
+.research-filter button:focus-visible {
+  border-color: #1772d0;
+}
+
+.research-filter button.active {
+  border-color: #1772d0;
+  background: #1772d0;
+  color: #fff;
+}
+
+.research-list tr[hidden] {
+  display: none;
+}
+
 .experience-logo-cell {
   padding: 20px;
   width: 30%;
